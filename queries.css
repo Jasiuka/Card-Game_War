@@ -1,0 +1,296 @@
+/* To smaller screens */
+
+@media (max-width: 90.6rem) {
+  .cards_left_box {
+    left: 8%;
+  }
+
+  .gameMessBox {
+    left: 5%;
+  }
+
+  .popUp_text_win {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 80.6rem) {
+  .cards_left_box {
+    left: 8%;
+    font-size: 2.5rem;
+  }
+
+  .gameMessBox {
+    left: 5%;
+    font-size: 2.4rem;
+    width: 40rem;
+  }
+
+  .cardSlot {
+    width: 14rem;
+    height: 17rem;
+  }
+}
+
+@media (max-width: 71.875rem) {
+  .table {
+    height: 70vh;
+    width: 60vw;
+  }
+
+  .popUpBox {
+    height: 70vh;
+    width: 60vw;
+  }
+}
+
+@media (max-width: 62.5rem) {
+  .table {
+    height: 70vh;
+    width: 70vw;
+  }
+
+  .popUpBox {
+    height: 70vh;
+    width: 70vw;
+  }
+
+  .gameMessBox {
+    left: 2%;
+    font-size: 2.4rem;
+    width: 30rem;
+  }
+}
+
+@media (max-width: 51.25rem) {
+  .table {
+    height: 70vh;
+    width: 80vw;
+  }
+
+  .popUpBox {
+    height: 70vh;
+    width: 80vw;
+    left: 10%;
+  }
+
+  .cards_left_box {
+    left: 5%;
+    font-size: 2rem;
+  }
+
+  .gameMessBox {
+    text-align: center;
+    left: 2%;
+    font-size: 2.2rem;
+    width: 23rem;
+    height: 10rem;
+  }
+
+  .cardSlot {
+    width: 13rem;
+    height: 16rem;
+  }
+}
+
+@media (max-width: 38.75rem) {
+  .table {
+    height: 50vh;
+    width: 95vw;
+  }
+
+  .popUpBox {
+    height: 50vh;
+    width: 95vw;
+    left: 3%;
+  }
+
+  .popUp_text_win {
+    font-size: 5rem;
+  }
+
+  .gameMessBox {
+    text-align: center;
+    left: -1%;
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 10rem;
+  }
+
+  .cardSlot {
+    width: 10rem;
+    height: 13rem;
+  }
+}
+
+@media (max-width: 30rem) {
+  .warMessage {
+    font-size: 2rem;
+  }
+
+  .cardSlot {
+    width: 7rem;
+    height: 10rem;
+  }
+
+  .cards_left_box {
+    left: 6%;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .cardsLeft_text {
+    width: 6rem;
+  }
+}
+
+@media (max-width: 26.25rem) {
+  .cardsLeft_text {
+    width: 4rem;
+  }
+
+  .cards_left_box {
+    left: 4%;
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .gameMessBox {
+    text-align: center;
+    left: -1%;
+    font-size: 1.1rem;
+    width: 11rem;
+    height: 8rem;
+  }
+
+  .table {
+    height: 40vh;
+    width: 95vw;
+    grid-template-columns: 5fr 9fr 1fr;
+  }
+
+  .cardsLeft_p2 {
+    top: 10%;
+  }
+
+  .cardsLeft_p1 {
+    top: 80%;
+  }
+
+  .name {
+    width: 25rem;
+    margin: 1rem;
+    font-size: 3rem;
+  }
+
+  .score {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 21.25rem) {
+  .btn_deal {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+  }
+
+  .gameMessBox {
+    text-align: center;
+    left: -1%;
+    font-size: 0.8rem;
+    width: 10rem;
+    height: 7rem;
+  }
+}
+
+/* To smaller screens */
+
+/* To bigger screens */
+
+@media (min-width: 112rem) {
+  .popUp_text_win {
+    font-size: 6rem;
+  }
+
+  .gameMessBox {
+    /* left: 15%; */
+    font-size: 4rem;
+    padding: 1rem;
+    width: 60rem;
+    height: 8rem;
+  }
+
+  .cards_left_box {
+    font-size: 4rem;
+    left: 15%;
+  }
+}
+
+@media (min-width: 118.75rem) {
+  .mainContainer {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .table {
+    height: 70vh;
+    width: 70vw;
+  }
+
+  .gameMessBox {
+    left: 2%;
+    font-size: 5rem;
+    padding: 1.5rem;
+    width: 70rem;
+    height: 10rem;
+  }
+
+  .cardSlot {
+    width: 20rem;
+    height: 23rem;
+  }
+
+  .cards_left_box {
+    font-size: 5rem;
+    left: 15%;
+    column-gap: 2rem;
+  }
+
+  .name {
+    width: 39rem;
+    margin: 2.5rem;
+    font-size: 5rem;
+    color: rgb(246, 236, 255);
+    border-right: 4px solid rgba(255, 255, 255, 0.5);
+    padding: 0.4rem;
+  }
+
+  .btn_deal {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 144rem) {
+  .gameMessBox {
+    left: 2%;
+    font-size: 7rem;
+    padding: 2rem;
+    width: 85rem;
+    height: 14rem;
+  }
+
+  .cards_left_box {
+    font-size: 6rem;
+    left: 15%;
+    column-gap: 2rem;
+  }
+
+  .btn_deal {
+    font-size: 5rem;
+  }
+}
+
+/* To bigger screens */

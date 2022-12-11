@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script defer src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter:wght@400;500;700&family=Rubik:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="queries.css" rel="stylesheet"">
+    <title>Karas(kortų žaidimas)</title>
+  </head>
+  <body>
+    <main class="mainContainer">
+      <div class="playerSide hide">
+        <h2 class="player2_name name">COMPUTER WAR POINTS</h2>
+        <h5 class="warPoints_score_player2 score">0</h5>
+        </div>
+      </div>
+      <div class="table hide">
+        <div class="cards_left_box cardsLeft_p2">
+          <h6 class="cardsLeft_text">COMPUTER CARDS </h6>
+          <h6 class="player2_CardNumber cardNumber">0</h6>
+        </div>
+        <div class="cardsInGame">
+          <div class="player2_cardSlot cardSlot">
+            <img src="AllS.png" class="card_inSlot_player2 card_inSlot">
+          </div>
+          <h5 class="warMessage hide">WAR!</h5>
+          <div class="player1_cardSlot cardSlot">
+            <img src="AllS.png" class="card_inSlot_player1 card_inSlot">
+          </div>
+        </div>
+        <button class="btn_deal">DEAL</button>
+        <div class="cards_left_box cardsLeft_p1">
+          <h6 class="cardsLeft_text">PLAYER CARDS </h6>
+          <h6 class="player1_CardNumber cardNumber">0</h6>
+        </div>
+        </div>
+      <div class="bubble">
+      </div>
+      <div class="gameMessBox hide">
+        <h3 class="gameMess">Game message</h3>
+      </div>
+      <div class="playerSide hide">
+        <h2 class="player1_name name">PLAYER WAR POINTS</h2>
+        <h5 class="warPoints_score_player1 score">0</h5>
+      </div>
+    </main>
+    <div class="popUpBox hide">
+      <div class="popUp_text"> 
+        <h1 class="popUp_text_winner">COMPUTER</h1>
+        <h1 class="popUp_text_win">WINS!</h1>
+      </div>
+      <div class="popUp_btns">
+        <button class="btn_restart btn_popUp btn_hide">Restart</button>
+        <button class="btn_start btn_popUp">Start game</button>
+      </div>
+    </div>
+  </body>
+</html>
