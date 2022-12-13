@@ -24,6 +24,11 @@
   .popUp_text_win {
     font-size: 6rem;
   }
+
+  .cardSlot {
+    width: 14rem;
+    height: 17rem;
+  }
 }
 
 @media (max-width: 80.6rem) {
@@ -243,6 +248,21 @@
   .btn_start {
     font-size: 2.5rem;
     padding: 1rem;
+  }
+}
+
+@media (max-width: 20.625rem) {
+  .playerSide {
+    width: 30rem;
+  }
+
+  .name {
+    width: 20rem;
+    font-size: 2rem;
+  }
+
+  .score {
+    font-size: 3rem;
   }
 }
 

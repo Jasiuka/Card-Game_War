@@ -30,6 +30,7 @@ MAIN
   justify-content: center;
   align-items: center;
   background-image: url("background_im.jpg");
+  background-size: cover;
 }
 
 .popUpBox {
